@@ -1,9 +1,12 @@
-time =""
+def convert():
+    time =""
 
-time = int(input("how much time in minutes?"))
+    time = int(input("how much time in minutes?"))
 
-hours = time // 60
+    hours = time // 60
 
-minutes = time % 60
+    minutes = time % 60
 
-print( str(hours) + " hours, " + str(minutes) + " minutes")
+    return ( str(hours) + " hours, " + str(minutes) + " minutes")
+
+print(convert())
