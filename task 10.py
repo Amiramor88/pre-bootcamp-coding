@@ -5,4 +5,4 @@ def check_vowel(word):
             vowels += char
     return vowels
 
-print(checkvowel("height"))
+print(check_vowel("height"))
