@@ -1,17 +1,13 @@
-def checkno():
-    m = ''
-    e = ''
-    m = int(input ('number'))
-    e = int(input ('number'))
+def checkno(x,y):
 
-    if m == 65 or e == 65:
+    if x == 65 or y == 65:
         return True
-    elif int(m + e) == 65:
+    elif int(x + y) == 65:
         return True
     else:
         return False
 
-print(checkno())
+print(checkno(15,50))
 
 
 
