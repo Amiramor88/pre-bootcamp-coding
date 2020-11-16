@@ -1,16 +1,14 @@
-def temp():
-    temptype = input("Please enter 'C' for celius and 'F' for farenheit: ")
-    tempno = int(input("What's the temperature?"))
-
-    if temptype == "F" or temptype == "f":
-        Celsius = (tempno - 32) * 5/9
+def temp(num,type_of_temp):
+    
+    if type_of_temp == "F" or type_of_temp == "f":
+        Celsius = (num - 32) * 5/9
         return Celsius
-    elif temptype == "C" or temptype == "c":
-        Farenheit = ((tempno * 9)/5) + 32
+    elif type_of_temp == "C" or type_of_temp == "c":
+        Farenheit = ((num * 9)/5) + 32
         return Farenheit
     else:
-        return "Please stop playing and enter 'F' or 'C'"
+        return "Incorrect Values entered'"
 
 
-print(temp())
+print(temp(342,"C"))
 
