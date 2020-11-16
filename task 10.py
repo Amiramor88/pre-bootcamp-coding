@@ -1,9 +1,8 @@
-def checkv():
-    sent = input("type a sentence: ")
+def check_vowel(word):
     vowels =""
-    for char in sent:
+    for char in word:
         if char in "aeiouAEIOU":
             vowels += char
     return vowels
 
-print(checkv())
+print(checkvowel("height"))
