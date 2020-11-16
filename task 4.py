@@ -5,7 +5,7 @@ def check_for_no_3(x,y):
 
     value3 = num in str(add_x_y)
 
-    if (value1 = 3 or value2 =3) and value3:
+    if (x = 3 or y =3) and value3:
         return True
     else:
         return False
