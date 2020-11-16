@@ -1,6 +1,6 @@
 def maximum(list):
        
-    for i in list
+    for i in list:
         numbers.append(i)
 
     maxi = 0
