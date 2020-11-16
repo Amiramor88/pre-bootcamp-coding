@@ -1,11 +1,7 @@
-def maximum():
-    numbers = []
-
-    n = int(input("How many numbers will you enter: "))
-
-    for i in range (0,n):
-        newnum = int(input('enter a number:'))
-        numbers.append(newnum)
+def maximum(list):
+       
+    for i in list
+        numbers.append(i)
 
     maxi = 0
     for item in numbers:
@@ -13,4 +9,4 @@ def maximum():
             maxi = item
     return maxi
 
-print(maximum())
+print(maximum(["23","34","88","12","20"]))
