@@ -1,10 +1,10 @@
 
-def summation():
-    sumof = 0
+def summation(sum):
+    sum_of_numbers = 0
     for num in range(0,1000):
         if (num % 3 ==0) or (num % 5 ==0):
-            sumof+=num
+            sum_of_numbers +=num
 
-    return sumof
+    return sum_of_numbers
 
-print (summation())
+print (summation(sum))
