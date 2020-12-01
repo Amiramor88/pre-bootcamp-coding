@@ -1,14 +1,12 @@
-def temp(num,type_of_temp):
+def tempc(num):
     
-    if type_of_temp == "F" or type_of_temp == "f":
-        Celsius = (num - 32) * 5/9
-        return Celsius
-    elif type_of_temp == "C" or type_of_temp == "c":
-        Farenheit = ((num * 9)/5) + 32
-        return Farenheit
-    else:
-        return "Incorrect Values entered'"
+    Celsius = (num - 32) * 5/9
+    print(str(Celsius) + "Degrees Celsius")
+    
+def tempf(num):
+    
+    Farenheit = ((num * 9)/5) + 32
+    print(str(Farenheit) + "Degrees Farenheit")
+    
 
-
-print(temp(342,"C"))
 
