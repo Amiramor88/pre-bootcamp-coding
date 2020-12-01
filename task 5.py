@@ -1,9 +1,9 @@
-def Area_of_Triangle(a,b,c):
+def area_of_triangle(a,b,c):
 
     import math
 
     s = (a + b + c)/2
-    Area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+    area = math.sqrt(s*(s-a)*(s-b)*(s-c))
 
-    return Area
-print(Area_of_Triangle(14,11,16))
+    return area
+print(area_of_triangle(14,11,16))
