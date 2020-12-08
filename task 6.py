@@ -1,12 +1,7 @@
-def maximum(list):
-       
-    for i in list:
-        numbers.append(i)
+def maximum(numbers):
 
     maxi = 0
     for item in numbers:
-        if item > maxi:
-            maxi = item
+        if int(item) > maxi:
+            maxi = int(item)
     return maxi
-
-print(maximum(["23","34","88","12","20"]))
