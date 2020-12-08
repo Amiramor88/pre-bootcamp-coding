@@ -1,9 +1,9 @@
-def tempc(num):
+def temp_celsius(num):
     
-    Celsius = (num - 32) * 5/9
+    celsius = (num - 32) * 5/9
     print(str(Celsius) + " Degrees Celsius")
     
-def tempf(num):
+def temp_farenheit(num):
     
-    Farenheit = ((num * 9)/5) + 32
-    print(str(Farenheit) + " Degrees Farenheit")
+    farenheit = ((num * 9)/5) + 32
+    print(str(farenheit) + " Degrees Farenheit")
